@@ -151,7 +151,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
+	"github.com/jqqjj/requests"
 )
 
 func main() {
@@ -185,7 +185,7 @@ Requests 会自动为你解码 `gzip` 和 `deflate` 以及`br`传输编码的响
 ```go
 package main
 
-import "github.com/wangluozhe/requests"
+import "github.com/jqqjj/requests"
 
 func main(){
     r, err := requests.Get("图片URL", nil)
@@ -211,7 +211,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
+	"github.com/jqqjj/requests"
 )
 
 func main(){
@@ -295,7 +295,7 @@ r, err := requests.Get(rawurl, req)
 package main
 
 import (
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests/url"
 )
 
 func main(){
@@ -336,7 +336,7 @@ func main(){
 package main
 
 import (
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests/url"
 )
 
 func main(){
@@ -461,8 +461,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -571,8 +571,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -704,8 +704,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -813,7 +813,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 goroutine 1 [running]:
 main.main()
-	D:/Go/github.com/wangluozhe/requests/examples/test.go:27 +0xc0
+	D:/Go/github.com/jqqjj/requests/examples/test.go:27 +0xc0
 ```
 
 注意
@@ -833,8 +833,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -906,9 +906,9 @@ package main
 import (
 	"fmt"
 	http "github.com/wangluozhe/fhttp"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/transport"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/transport"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -1005,9 +1005,9 @@ package main
 import (
 	"fmt"
 	http "github.com/wangluozhe/fhttp"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/transport"
-	"github.com/wangluozhe/requests/url"
+	"github.com/jqqjj/requests"
+	"github.com/jqqjj/requests/transport"
+	"github.com/jqqjj/requests/url"
 )
 
 func main() {
@@ -1143,7 +1143,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
@@ -1171,7 +1171,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
@@ -1207,7 +1207,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
@@ -1252,7 +1252,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
@@ -1278,7 +1278,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
@@ -1332,7 +1332,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/wangluozhe/requests/utils"
+	"github.com/jqqjj/requests/utils"
 )
 
 func main() {
